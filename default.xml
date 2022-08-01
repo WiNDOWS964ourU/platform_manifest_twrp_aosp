@@ -104,7 +104,7 @@
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel.git" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/linaro/poplar" name="device/linaro/poplar.git" groups="device,poplar,pdk" />
   <project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel.git" groups="device,poplar,pdk" clone-depth="1" />
-  <project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy.git" groups="device"/>
+  <project path="device/mediatek/wembley-sepolicy" name="device/mediatek/wembley-sepolicy.git" groups="device"/>
   <project path="device/sample" name="device/sample.git" groups="pdk" />
   <project path="device/ti/beagle_x15" name="device/ti/beagle-x15.git" groups="device,beagle_x15,pdk" />
   <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel.git" groups="device,beagle_x15,pdk" clone-depth="1" />
