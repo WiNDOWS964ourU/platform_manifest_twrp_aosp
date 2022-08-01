@@ -12,30 +12,30 @@
             fetch="https://github.com"/>
 
     <!-- We need the TeamWin forks of these repos -->
-    <remove-project name="platform/bootable/recovery"/>
+    <remove-project name="platform/bootable/recovery.git"/>
 
-    <remove-project name="platform/build" />
-    <remove-project name="platform/build/soong" />
+    <remove-project name="platform/build.git" />
+    <remove-project name="platform/build/soong.git" />
 
-    <remove-project name="platform/external/icu" />
-    <remove-project name="platform/external/libxml2" />
-    <remove-project name="platform/external/sqlite" />
+    <remove-project name="platform/external/icu.git" />
+    <remove-project name="platform/external/libxml2.git" />
+    <remove-project name="platform/external/sqlite.git" />
 
-    <remove-project name="platform/packages/modules/adb" />
+    <remove-project name="platform/packages/modules/adb.git" />
 
-    <remove-project name="platform/system/core" />
-    <remove-project name="platform/system/libhidl" />
-    <remove-project name="platform/system/libhwbinder" />
-    <remove-project name="platform/system/security" />
-    <remove-project name="platform/system/update_engine" />
-    <remove-project name="platform/system/vold" />
+    <remove-project name="platform/system/core.git" />
+    <remove-project name="platform/system/libhidl.git" />
+    <remove-project name="platform/system/libhwbinder.git" />
+    <remove-project name="platform/system/security.git" />
+    <remove-project name="platform/system/update_engine.git" />
+    <remove-project name="platform/system/vold.git" />
 
     <!-- We need the LOS forks of these repos -->
-    <remove-project name="platform/hardware/interfaces"/>
+    <remove-project name="platform/hardware/interfaces.git"/>
 
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.git" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9.git" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9.git" />
 
     <!-- TWRP lives in TeamWin repo -->
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-12.1"/>
